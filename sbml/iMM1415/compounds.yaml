@@ -2230,6 +2230,7 @@
   name: e4p_c
 - id: M_e___m
   name: e___m
+  zeromass: yes
 - id: M_eaflatoxin_c
   name: eaflatoxin_c
 - id: M_eaflatoxin_e

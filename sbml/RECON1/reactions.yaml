@@ -2611,12 +2611,10 @@
   equation: '|M_cyan_c[c]| <=> |M_cyan_m[m]|'
 - id: R_CYOOm3
   name: CYOOm3
-  equation: (4) |M_focytC_m[m]| + (7.92) |M_h_m[m]| + |M_o2_m[m]| => (4) |M_ficytC_m[m]|
-    + (1.96) |M_h2o_m[m]| + (4) |M_h_c[c]| + (0.02) |M_o2s_m[m]|
+  equation: (4) |M_focytC_m[m]| + (7.92) |M_h_m[m]| + |M_o2_m[m]| => (4) |M_ficytC_m[m]| + (1.96) |M_h2o_m[m]| + (4) |M_h_c[c]| + (0.02) |M_o2s_m[m]|
 - id: R_CYOR_u10m
   name: CYOR - u10m
-  equation: (2) |M_ficytC_m[m]| + (2) |M_h_m[m]| + |M_q10h2_m[m]| => (2) |M_focytC_m[m]|
-    + (4) |M_h_c[c]| + |M_q10_m[m]|
+  equation: (2) |M_ficytC_m[m]| + (2) |M_h_m[m]| + |M_q10h2_m[m]| => (2) |M_focytC_m[m]| + (4) |M_h_c[c]| + |M_q10_m[m]|
 - id: R_CYSALANaEx
   name: CYSALANaEx
   equation: '|M_ala__L_c[c]| + |M_cys__L_e[e]| + |M_na1_e[e]| => |M_ala__L_e[e]|
@@ -7434,8 +7432,7 @@
   equation: '|M_nac_e[e]| => |M_nac_c[c]|'
 - id: R_NADH2_u10m
   name: NADH2 - u10m
-  equation: (5) |M_h_m[m]| + |M_nadh_m[m]| + |M_q10_m[m]| => (4) |M_h_c[c]| + |M_nad_m[m]|
-    + |M_q10h2_m[m]|
+  equation: (5) |M_h_m[m]| + |M_nadh_m[m]| + |M_q10_m[m]| => (5) |M_h_c[c]| + |M_nad_m[m]| + |M_q10h2_m[m]|
 - id: R_NADHtpu
   name: NADHtpu
   equation: '|M_nadh_c[c]| => |M_nadh_x[x]|'

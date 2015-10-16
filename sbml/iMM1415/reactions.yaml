@@ -4536,7 +4536,7 @@
   subsystem: D-arg and D-orn metabolism
 - id: R_DPCOAK
   name: DPCOAK
-  equation: '|M_dpcoa_c[c]| + |M_atp_c[c]| => |M_coa_c[c]| + |M_h_c[c]| + |M_adp_c[c]|'
+  equation: '|M_dpcoa_c[c]| + |M_atp_c[c]| + |M_h_c[c]| => |M_coa_c[c]| + |M_h_c[c]| + |M_adp_c[c]|'
   subsystem: CoA Biosynthesis
 - id: R_DPCOAPP
   name: DPCOAPP
@@ -13760,7 +13760,7 @@
   subsystem: Transport, Endoplasmic Reticular
 - id: R_UNK2
   name: UNK2
-  equation: '|M_gln__L_c[c]| + |M_h_c[c]| + |M_2kmb_c[c]| => |M_met__L_c[c]| + |M_glu__L_c[c]|'
+  equation: '|M_gln__L_c[c]| + (2) |M_h_c[c]| + |M_2kmb_c[c]| => |M_met__L_c[c]| + |M_glu__L_c[c]|'
   subsystem: Arginine and Proline Metabolism
 - id: R_UNK3
   name: UNK3

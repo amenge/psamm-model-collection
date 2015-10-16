@@ -10180,8 +10180,7 @@
   subsystem: Transport, nuclear
 - id: R_L_LACDcm
   name: L-Lactate dehydrogenase, cytosolic/mitochondrial
-  equation: (2) |M_ficytC_m[m]| + |M_lac_L_c[c]| => (2) |M_h_c[c]| + |M_pyr_c[c]|
-    + (2) |M_focytC_m[m]|
+  equation: (2) |M_ficytC_m[m]| + |M_lac_L_c[c]| => (2) |M_h_c[c]| + |M_pyr_c[c]| + (2) |M_focytC_m[m]|
   subsystem: Pyruvate metabolism
 - id: R_L_LACt2r
   name: L-lactate reversible transport via proton symport
